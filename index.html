@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            width: 210mm;
+            height: 297mm;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <button id="print" onclick="printPage()">
+        <li class="fa fa-print"></li>
+    </button>
+
+    <div id="contentToPrint" class="container-fluid">
+
+        <header>
+            <div class="header-left">
+                <img width="100" height="100"
+                    src="assets/images/hksMRBaVCdjf6UyZiszTI6Mm1XudHO2yodYuErH0-removebg-preview.png" alt="">
+            </div>
+            <div class="header-right">
+                <img width="250" height="250" src="assets/images/logo2-removebg-preview.png" alt="">
+            </div>
+        </header>
+        <p id="print_date" style="margin-left: 20px;display: none">Print Date :<span id="digital-clock"></span></p>
+
+        <main>
+            <div class="content-left">
+
+                <section class="content-section">
+
+                    <div class="content-left">
+                        PSI-400
+                        Registered
+                    </div>
+                    <div class="content-center">
+                        <!-- Content aligned in the center -->
+                        CONCREATE COMPRESSION TEST REPORT
+
+                    </div>
+                    <div class="content-right">
+                        <!-- Content aligned to the right -->
+                        ISO 17025
+                        Accredited
+                    </div>
+                </section>
+                <div class="table-container">
+                    <table class="invoice-table first-table">
+
+                        <tbody>
+                            <tr>
+                                <th>Date</th>
+                                <td>28-05-2023</td>
+                            </tr>
+                            <tr>
+                                <th>File</th>
+                                <td>cfile</td>
+                            </tr>
+                            <tr>
+                                <th>Casting Date</th>
+                                <td>28-05-2023</td>
+                            </tr>
+                            <tr>
+                                <th>Testing Date</th>
+                                <td>28-05-2023</td>
+                            </tr>
+                            <tr>
+                                <th>Age and Test</th>
+                                <td>age test </td>
+                            </tr>
+                            <tr>
+                                <th>Sample Size</th>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <th>Quantity</th>
+                                <td>5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="invoice-table second-table">
+
+                        <tbody>
+                            <tr>
+                                <th>Project</th>
+                                <td>project</td>
+                            </tr>
+                            <tr>
+                                <th>Address</th>
+                                <td>Gaza</td>
+                            </tr>
+                            <tr>
+                                <th>Contractor</th>
+                                <td>ahmed</td>
+                            </tr>
+                            <tr>
+                                <th>Supervisor</th>
+                                <td>Belal</td>
+                            </tr>
+                            <tr>
+                                <th>Concrete Co</th>
+                                <td>2fasds</td>
+                            </tr>
+                            <tr>
+                                <th>Element</th>
+                                <td>cpopc</td>
+                            </tr>
+                            <tr>
+                                <th>Grade</th>
+                                <td>B300 (N/mm2)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="content-title">
+                    <h3>TEST RESULT</h3>
+                </div>
+
+                <table class="table table-bordered text-center additional-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Reference</th>
+                            <th scope="col">Car No.</th>
+                            <th scope="col">Delivery Note No. </th>
+                            <th scope="col"> Grade </th>
+                            <th scope="col">Density Kg/m3</th>
+                            <th scope="col"> Stress N/mm2 7 Days</th>
+                            <th scope="col">StressN/mm2 28 Days</th>
+                            <th scope="col">Strenghth Precent</th>
+                            <th scope="col">Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@twitter</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@twitter</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@twitter</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+
+
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Ottommmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+
+
+                            <td colspan="5">Average: N/mm2</td>
+                            <td>55.5</td>
+                            <td>56.5</td>
+                            <td colspan="2">90%</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+           
+                <div class="table-summary">
+                    <div class="left-data">
+                        <p>Min Stress7 <span>7</span><span>N/mm2</span></p>
+
+                        <p>Min Stress28 <span>28</span><span>N/mm2</span></p>
+
+                    </div>
+
+                    <div class="right-data">
+                        <p>Max Stress7 <span>7</span><span>N/mm2</span></p>
+
+                        <p>Max Stress28 <span>28</span><span> N/mm2</span></p>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+        <div class="additional-content">
+            <h3 style="text-align: left;text-decoration: underline">REMARKS</h3>
+            <ul>
+                <li>* CUBES WERE CURED IN THE LAB SINCE 2023-06-04</li>
+                <li>* ALL CUBES WERE REGULAR IN SHAPE AND ALL CORNERS AND EDGES
+                    WERE UNDAMAGED
+                </li>
+
+                <li>*TEST WAS CARRIED OUT ACCORDING TO PS 55,PART 4; 2007.
+                </li>
+                <li>* WE WOULD LIKE TO THANK YOU FOR YOUR CONFIDENCE AND LOOKING
+                    FORWARD SERVING YOU IN THE FUTURE.
+                </li>
+            </ul>
+        </div>
+        <div class="signatures">
+
+            <img id="signuter2" src="assets/images/signture1-removebg-preview.png" alt="">
+
+            <img id="signuter1" src="assets/images/signature2-removebg-preview.png" alt="">
+        </div>
+        <footer>
+
+            <p>
+                Ramallah : AL-Bireh-Al-Sharafeh - Ahmed Orabi St.|
+                البيرة - الشرفة - شارع أحمد عرابي
+                |Tel: 02 241 3394 - Fax: 02 241 3138 - Mobile: 059925000 | 0599731373
+
+
+                E-mail: ramallahlab@yahoo.com
+            </p>
+        </footer>
+
+
+    </div>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        function printPage() {
+            document.getElementById('print_date').style.display = 'block'
+            window.print();
+        }
+
+        function getDateTime() {
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = now.getMonth() + 1;
+            var day = now.getDate();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var second = now.getSeconds();
+            if (month.toString().length == 1) {
+                month = '0' + month;
+            }
+            if (day.toString().length == 1) {
+                day = '0' + day;
+            }
+            if (hour.toString().length == 1) {
+                hour = '0' + hour;
+            }
+            if (minute.toString().length == 1) {
+                minute = '0' + minute;
+            }
+            if (second.toString().length == 1) {
+                second = '0' + second;
+            }
+            var dateTime = year + '/' + month + '/' + day + ' ' + hour + ':' + minute + ':' + second;
+            return dateTime;
+        }
+
+        // example usage: realtime clock
+        setInterval(function () {
+            currentTime = getDateTime();
+            document.getElementById("digital-clock").innerHTML = currentTime;
+        }, 100);
+    </script>
+</body>
+
+</html>
