@@ -59,7 +59,10 @@ section {
 .content-left {
   flex: 2;
 }
-.content-left , .content-right , .content-center{
+
+.content-left,
+.content-right,
+.content-center {
   font-weight: bold;
   font-size: 20px;
 }
@@ -224,6 +227,15 @@ h2 {
   /* margin-top: 20px; */
   font-weight: bold;
   font-size: 14px;
+}
+
+
+.table-average {
+  font-size: 18px;
+}
+
+.table-average td {
+  border-style: none;
 }
 
 .table-summary p {
